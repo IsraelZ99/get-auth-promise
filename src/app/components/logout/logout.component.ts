@@ -12,7 +12,7 @@ export class LogoutComponent implements OnInit {
   constructor(private authService: AuthPrimiseHttpService, private router: Router) { }
 
   ngOnInit(): void {
-  }
+  } 
 
   onLogout() {
     const url: string = 'http://155.138.216.49:8080/ollin-server/api/auth/logout';
